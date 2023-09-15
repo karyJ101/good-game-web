@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #5758bb;
+}
+
+.formContainer,
+#loginForm,
+.formInput,
+.formFooter,
+#signUpForm {
+  display: flex;
+}
+
+.formContainer {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+#loginForm,
+#signUpForm {
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background: white;
+  border-radius: 2rem;
+  padding: 2rem 2rem;
+}
+
+#loginForm {
+  width: 30rem;
+}
+
+#signUpForm {
+  width: 30rem;
+}
+.formInput,
+.formButton {
+  margin-top: 1rem;
+}
+.formInput {
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  color: #7f8c8d;
+}
+
+input,
+.formButton {
+  width: 20rem;
+  border: 0.4rem;
+  border-radius: 0.5rem;
+}
+
+input {
+  border-color: lightgray;
+  padding-left: 0.6rem;
+  font-size: 1rem;
+  height: 2.7rem;
+  background: lightgray;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 2.7rem;
+}
+
+.formButton {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  background: black;
+  color: white;
+  padding: 1.2rem;
+  text-align: center;
+  display: inline-block;
+}
+
+.formButton:hover {
+  background: #535c68;
+}
+
+.formLink,
+.formSubHeading,
+#registeredLink {
+  color: #7f8c8d;
+}
+
+.formSubHeading {
+  margin: 0.5rem;
+}
+
+.formLink {
+  margin-top: 0.5rem;
+  text-decoration: none;
+}
+
+.formLink:hover,
+#registeredLink:hover {
+  color: #bdc3c7;
+}
